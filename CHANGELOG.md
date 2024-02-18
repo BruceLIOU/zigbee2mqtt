@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.36.0](https://github.com/Koenkk/zigbee2mqtt/compare/1.35.3...1.36.0) (2024-02-18)
+
+
+### Features
+
+* Add support for button entity in Home Assistant ([#21372](https://github.com/Koenkk/zigbee2mqtt/issues/21372)) ([24b5f9b](https://github.com/Koenkk/zigbee2mqtt/commit/24b5f9b43af8303f87fd5f29e57cca4a850d7b1d))
+
+
+### Bug Fixes
+
+* **ignore:** update dependencies ([#21347](https://github.com/Koenkk/zigbee2mqtt/issues/21347)) ([ce41f2f](https://github.com/Koenkk/zigbee2mqtt/commit/ce41f2f8ba89d31926cdce7d2d93ec19ffccf7fc))
+* **ignore:** update dependencies ([#21444](https://github.com/Koenkk/zigbee2mqtt/issues/21444)) ([16b251d](https://github.com/Koenkk/zigbee2mqtt/commit/16b251d3c9c0651436899de6b63033d98e7b1353))
+* **ignore:** update zigbee-herdsman to 0.33.9 ([#21386](https://github.com/Koenkk/zigbee2mqtt/issues/21386)) ([dfa4996](https://github.com/Koenkk/zigbee2mqtt/commit/dfa499659ec69db40ccc3d5c1dff874f446587d0))
+* **ignore:** update zigbee-herdsman-converters to 18.29.1 ([#21290](https://github.com/Koenkk/zigbee2mqtt/issues/21290)) ([55653c9](https://github.com/Koenkk/zigbee2mqtt/commit/55653c974ef72e8b5d8107d1b2e1b67efb70e4e1))
+* **ignore:** update zigbee-herdsman-converters to 18.30.0 ([#21315](https://github.com/Koenkk/zigbee2mqtt/issues/21315)) ([910f3a6](https://github.com/Koenkk/zigbee2mqtt/commit/910f3a68603bf4b7f31d7a80370816d02f7126b8))
+* **ignore:** update zigbee-herdsman-converters to 18.31.0 ([#21359](https://github.com/Koenkk/zigbee2mqtt/issues/21359)) ([c7b820c](https://github.com/Koenkk/zigbee2mqtt/commit/c7b820c3763e6052cc6755e0e12926c316de7f42))
+* **ignore:** update zigbee-herdsman-converters to 18.32.0 ([#21373](https://github.com/Koenkk/zigbee2mqtt/issues/21373)) ([0ab7390](https://github.com/Koenkk/zigbee2mqtt/commit/0ab7390a642a723fc4e1847bbd95ea12487388ab))
+* **ignore:** update zigbee-herdsman-converters to 18.33.0 ([#21387](https://github.com/Koenkk/zigbee2mqtt/issues/21387)) ([2aaf878](https://github.com/Koenkk/zigbee2mqtt/commit/2aaf878889b4211b8a470c847721c75b5a91e39e))
+* **ignore:** update zigbee-herdsman-converters to 18.33.1 ([#21400](https://github.com/Koenkk/zigbee2mqtt/issues/21400)) ([8a9477f](https://github.com/Koenkk/zigbee2mqtt/commit/8a9477f2bb6afbfeacf64547c8bfe4ae4f18ca7f))
+* **ignore:** update zigbee-herdsman-converters to 18.33.2 ([#21416](https://github.com/Koenkk/zigbee2mqtt/issues/21416)) ([5766bf4](https://github.com/Koenkk/zigbee2mqtt/commit/5766bf479ba548d819f87de2046f554b6de15945))
+* **ignore:** update zigbee2mqtt-frontend to 0.6.157 ([#21269](https://github.com/Koenkk/zigbee2mqtt/issues/21269)) ([a479bf9](https://github.com/Koenkk/zigbee2mqtt/commit/a479bf9039248d0b0ebc7e0f65dfc8ff342090d4))
+* **ignore:** update zigbee2mqtt-frontend to 0.6.158 ([#21356](https://github.com/Koenkk/zigbee2mqtt/issues/21356)) ([8bc3c46](https://github.com/Koenkk/zigbee2mqtt/commit/8bc3c46c34e1c13c893b5d52143f6e357ff58546))
+* Match endpoint name in the MQTT topic based on endpoints listed in the definition ([#21214](https://github.com/Koenkk/zigbee2mqtt/issues/21214)) ([a5a87a7](https://github.com/Koenkk/zigbee2mqtt/commit/a5a87a79a80aaa261a34a8fb541f47347c4ca729))
+* Remove dependency on predefined list of endpoints (`parseEntityID()` function) ([#21264](https://github.com/Koenkk/zigbee2mqtt/issues/21264)) ([81335e5](https://github.com/Koenkk/zigbee2mqtt/commit/81335e5b4b0ed0e1dacdd764de1711f5a1481f7f))
+* Remove predefined endpoint list, remove limits on device friendly name ([#21325](https://github.com/Koenkk/zigbee2mqtt/issues/21325)) ([b4473d6](https://github.com/Koenkk/zigbee2mqtt/commit/b4473d6e24de8dc2db0ae7cb7bbb014788854ae4))
+
 ## [1.35.3](https://github.com/Koenkk/zigbee2mqtt/compare/1.35.2...1.35.3) (2024-02-06)
 
 
